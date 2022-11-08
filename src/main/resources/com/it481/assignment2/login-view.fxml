@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="114.0" prefWidth="253.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.it481.assignment2.LoginController">
+   <children>
+      <Label text="Server:" />
+      <TextField fx:id="txtServer" text="localhost:1433"/>
+      <Label text="Database:" />
+      <TextField fx:id="txtDB" text="Northwind"/>
+      <Label text="User Name:" />
+      <TextField fx:id="txtName" />
+      <Label text="Password:" />
+      <PasswordField fx:id="txtPassword" />
+      <Label/>
+      <Button mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="25.0" prefWidth="117.0" text="Submit" />
+   </children>
+</VBox>
